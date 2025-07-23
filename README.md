@@ -1,2 +1,2 @@
-# blueprint-analyzer
-Sistema OCR para medir áreas de pavimentação em PDFs
+# Blueprint Analyzer
+Sistema OCR para medir áreas de pavimentação em PDFs.

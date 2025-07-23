@@ -1,0 +1,9 @@
+
+fastapi
+uvicorn
+pytesseract
+opencv-python
+numpy
+pandas
+pdf2image
+openpyxl
