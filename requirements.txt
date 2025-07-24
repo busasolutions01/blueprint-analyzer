@@ -7,3 +7,4 @@ numpy
 pandas
 pdf2image
 openpyxl
+python-multipart
