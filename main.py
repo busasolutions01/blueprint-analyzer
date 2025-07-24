@@ -27,8 +27,10 @@ async def process_pdf(file: UploadFile):
                 data.append({"label": word, "area_ft2": area_ft})
 
     df = pd.DataFrame(data)
-    df.to_excel("output.xlsx", index=False)
-    return {"status": "success", "areas_detected": len(df)}
-
+return {
+    "status": "success",
+    "areas_detected": len(df),
+    "data": df.to_dict(orient="records")
+}
 def scale_factor():
     return 0.25
